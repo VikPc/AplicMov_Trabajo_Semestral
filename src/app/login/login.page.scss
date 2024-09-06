@@ -1,0 +1,111 @@
+/* Estilos para toda la página de login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #C7C7C9; /* Color de fondo */
+  padding: 20px;
+}
+
+/* Estilo del logo en el formulario */
+.login-logo {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/* Estilo del título Registro */
+ion-header ion-title {
+  font-size: 24px;
+  background: #04D976; /* Color de fondo de la tarjeta, puedes cambiarlo */
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilo para el botón de ingresar */
+ion-button {
+  --background: #E06748; /* Color del botón */
+  --border-radius: 20px;
+  --padding-start: 20px;
+  --padding-end: 20px;
+  margin-top: 15px;
+}
+
+/* Estilo para el texto de "Olvidaste tu contraseña" */
+.forgot-password {
+  margin-top: 15px;
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+}
+
+.forgot-password p {
+  font-size: 14px;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.forgot-password p:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Estilo de las caja del login */
+ion-card {
+  width: 100%;
+  max-width: 400px;
+  --background: #F28627; /* Color de fondo de la tarjeta, puedes cambiarlo */
+  /*box-shadow: 0px 8px 16px rgba(238, 130, 238, 0.5); /* Sombra con un toque violeta */
+  border-radius: 15px; /* Borde redondeado */
+}
+
+
+ion-card-header img {
+  margin-bottom: 10px;
+}
+
+ion-item {
+  margin-bottom: 15px;
+}
+
+/*imputs*/
+ion-item {
+  --background: transparent; /* Fondo transparente para los ion-item */
+  /*--ion-background-color: transparent; /* Asegura que todo el fondo sea transparente */
+  
+  ion-label {
+    color: rgba(255, 255, 255, 0.7); /* Color del texto cuando no se está escribiendo */
+    transition: color 0.3s ease; /* Transición suave al cambiar de color */
+  }
+
+  ion-input {
+    color: black; /* Color del texto cuando el usuario está escribiendo */
+    --placeholder-color:black;
+    /*--placeholder-color: rgba(255, 255, 255, 0.7); /* Color del placeholder (etiqueta flotante) */
+    /*--highlight-background: transparent; /* Evitar color de fondo cuando se selecciona el input */
+  }
+
+  /*ion-input:focus {
+    ion-label {
+      color: rgba(255, 255, 255, 0); /* Ocultar el label cuando el usuario está escribiendo */
+    /*}/*
+  /*}*/
+}
+
+/*registro de acceso*/
+.registro-acceso {
+  font-size: 24px; /* Tamaño del texto */
+  font-weight: bold; /* Negrita */
+  text-align: center; /* Centrar el texto */
+  color: #ffffff; /* Color blanco */
+  margin-top: 20px; /* Espaciado superior */
+  margin-bottom: 20px; /* Espaciado inferior */
+  text-transform: uppercase; /* Convertir el texto a mayúsculas */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra en el texto */
+}
+

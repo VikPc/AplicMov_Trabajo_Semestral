@@ -1,0 +1,71 @@
+
+/*-------------------------------------*/
+/* General page styling */
+ion-content{
+  --background: #F2762E; /* Fondo general */
+}
+ion-card {
+  --background: #F2762E; /* Fondo general */
+  display: flex;
+  justify-content: center; /* Centrar verticalmente */
+  //align-items: center; /* Centrar horizontalmente */
+  height: 100%; /* Abarcar toda la pantalla */
+  padding: 0; /* Eliminar padding */
+}
+
+/* Encabezado */
+.toolbar-custom {
+  --background: red; /* Color de fondo de la barra */
+  --color: white; /* Color del texto */
+  //text-align: center;
+}
+
+.toolbar-title {
+  font-size: 1.5rem; /* Tamaño del título */
+  //text-align: center;
+}
+
+
+/*-----contraseña------------*/
+.contrana {
+  display: flex;
+  //justify-content: center; /* Centrar horizontalmente */
+  //align-items: center; /* Centrar verticalmente */
+  height: 100vh; /* Abarcar toda la altura de la ventana */
+  padding: 0;
+  
+}
+
+.center-content {
+  display:flexbox;
+  //--lex-direction: column; /* Apilar el logo y el formulario en columna */
+  //align-items: center; /* Alinear el contenido centrado horizontalmente */
+  width: 100%;
+  max-width: 800px; /* Ancho máximo para el formulario */
+  //max-height:none;
+  padding: 20px;
+  
+}
+.img{
+  width: 150px; /* Tamaño del logo */
+  height:auto;
+  align-content: center;
+  align-items:center;
+  margin-bottom:none; /* Espacio entre el logo y el formulario */
+  --lex-direction: center; /* Apilar el logo y el formulario en columna */
+  --padding-start: 0;
+  justify-content: center;
+  
+}
+
+.container {
+  //background: #E06748; /* Fondo del contenedor */
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%; /* Abarcar todo el ancho dentro del contenedor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  //text-align: center; /* Texto centrado */
+  background: blue;
+  //justify-content: left;//este sirve para alinear 
+}
+

@@ -1,0 +1,166 @@
+/*.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #C7C7C9; /* Color de fondo */
+  /*padding: 20px;
+}
+/* Estilos para el encabezado */
+/*.toolbar-custom {
+    --background-color: #04D976; /* Color de fondo del toolbar */
+    /*color: white;
+
+  }*/
+  /*Titulo de la pagina */
+  .toolbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Fondo del contenido */
+  /*ion-content {
+    --background-color: #EDF24B; /* Color de fondo de la página */
+    /*padding: 20px;
+  }
+  
+  /* Contenedor principal de las tarjetas */
+  /*.cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas */
+    /*justify-content: center; /* Alinea las tarjetas en el centro horizontalmente */
+    /*gap: 20px; /* Espacio entre las tarjetas */
+  /*}/*
+  
+  /* Estilo para las tarjetas */
+  /*.centered-card {
+    flex: 1 1 300px; /* Tamaño flexible: intenta ser 300px de ancho, pero se adapta */
+    /*max-width: 400px; /* Ancho máximo de la tarjeta */
+    /*text-align: center; /* Centrar el texto dentro de las tarjetas */
+  /*}*/
+    /*efecto movimineto de las cards*/
+  .elevated-card {
+    /*box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);*/
+    border-radius: 15px; /* Borde redondeado */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  /* Efecto de hover para la tarjeta */
+  .elevated-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Estilo para la imagen en las tarjetas */
+  ion-img, img {
+    width: 100%;
+    height: 200px; /* Ajusta la altura de la imagen */
+    object-fit: cover; /* Asegura que la imagen se ajuste sin distorsionarse */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  /* Ajustes de estilo para el subtítulo de las tarjetas */
+  ion-card-subtitle {
+    font-size: 14px;
+    color: black;
+    padding: 10px 0;
+  }
+  
+  /* Estilo del título dentro del ion-card-header */
+  ion-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Ajustes para los ítems dentro de ion-card */
+  ion-card-header img {
+    margin-bottom: 10px;
+  }
+  
+  ion-item {
+    margin-bottom: 15px;
+    --background: transparent; /* Fondo transparente para los ion-item */
+  }
+  
+  /* Estilo general para los ítems de formulario */
+  ion-item ion-label {
+    color: rgba(255, 255, 255, 0.7); /* Color del texto cuando no se está escribiendo */
+    transition: color 0.3s ease; /* Transición suave al cambiar de color */
+  }
+  
+  ion-item ion-input {
+    color: black; /* Color del texto cuando el usuario está escribiendo */
+    --placeholder-color: black; /* Color del placeholder */
+  }
+  
+  /* Estilo del texto dentro del header de la página */
+  .registro-acceso {
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centrar el texto */
+    color: #ffffff; /* Color blanco */
+    margin-top: 20px; /* Espaciado superior */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra en el texto */
+  }
+  /*-------------------------------------*0/
+/* General page styling */
+ion-content {
+  --background: #f4f4f4; /* Color de fondo de la página */
+  height: 100%; /* Asegura que el contenido abarque toda la altura disponible */
+  display: flex;
+  flex-direction: column;
+}
+
+ion-header {
+  background: #333; /* Color de fondo del encabezado */
+}
+
+.toolbar-custom {
+  --background: #333; /* Color de fondo de la barra de herramientas */
+  --color: #fff; /* Color del texto en la barra de herramientas */
+}
+
+.toolbar-title {
+  font-size: 1.5rem; /* Tamaño del texto del título */
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 16px; /* Espacio alrededor de las tarjetas */
+  flex: 1; /* Asegura que el contenedor ocupe el espacio disponible */
+}
+
+.centered-card {
+  max-width: 300px; /* Ancho máximo de las tarjetas */
+  margin: 10px; /* Espacio entre tarjetas */
+  width: 100%; /* Asegura que la tarjeta ocupe el ancho disponible */
+}
+
+.elevated-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de la tarjeta */
+  border-radius: 8px; /* Bordes redondeados de la tarjeta */
+  background-color: #E06748;/*Color para dentro de la caja*/
+}
+
+ion-card-title,
+ion-card-subtitle {
+  text-align: center; /* Alineación del texto dentro de la tarjeta */
+  margin-bottom: 10px; /* Espacio inferior del texto */
+}
+
+ion-card-header {
+  padding: 16px; /* Espacio interno del encabezado de la tarjeta */
+}
+
+ion-img {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+  border-radius: 8px 8px 0 0; /* Bordes redondeados en la parte superior de la imagen */
+}
