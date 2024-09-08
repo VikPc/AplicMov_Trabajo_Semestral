@@ -19,3 +19,15 @@
     <p>Es una prueba....................</p>
   </div>
 </ion-content>
+
+<!-- COntainer para la animacion -->
+
+<ion-content>
+  <div *ngIf="showElement" @fadeInOut>
+    <img src="assets/animacio.jpg" alt="Imagen animada" />
+    <p>Este elemento aparecerá con animación.</p>
+  </div>
+
+  <ion-button (click)="toggleElement()">Mostrar/Ocultar</ion-button>
+</ion-content>
+
