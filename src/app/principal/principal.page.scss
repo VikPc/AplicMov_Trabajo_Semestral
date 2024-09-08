@@ -164,3 +164,18 @@ ion-img {
   width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
   border-radius: 8px 8px 0 0; /* Bordes redondeados en la parte superior de la imagen */
 }
+
+.animated-image-container {
+  position: absolute; /* Hace que el contenedor se posicione de forma absoluta */
+  left: 0; /* Alinea el contenedor al lado izquierdo */
+  top: 50%; /* Centra verticalmente */
+  transform: translateY(-50%); /* Ajusta la posición para estar realmente centrada */
+}
+
+img {
+  width: 150px; /* Ajusta el tamaño de la imagen según lo necesario */
+  height: auto;
+}
+
+
+
